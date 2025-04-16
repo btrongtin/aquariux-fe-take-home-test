@@ -1,0 +1,49 @@
+Evaluation
+
+The evaluation and assessment of the final submission be conducted based on the following criterias:
+1. Evaluation
+- Tech stack: App should use react, typescript, tailwind, shadcn
+- Feature Completeness
+  + Current weather summary
+  + 5-day forecast by 3 hours
+  + Search & history
+- Code Reusability and Scalability, for examples:
+  + Nested destructuring and modularisation
+  + Consistent styling approach
+  + Folder structure
+- Code Readability, for examples:
+  + Naming convention
+  + Self documenting code
+  + Descriptive variable and function names
+  + Consistent formatting (ESLint, prettier)
+  + Number of lines per component or function
+- Filtering and Iteration Efficiency, for examples:
+  + Different tailored filtering strategies
+  + Loop and iteration optimizations
+- Web Standards & Compliance, for examples:
+  + Secure API key
+  + Local storage data encryption
+  + Error handling
+- Responsiveness
+  + Compatible with different display resolutions and devices
+
+2. Task
+Create a weather web application using the available data from Open Weather API with following core features:
+- Current Weather Summary
+  + Display current date, weather icon, temperature, description, humidity, wind speed with arrow degree direction and visibility.
+- 5-day forecast by 3 hours
+  + Display the available forecast data with forecast date with 24 hour format, weather icon, max & min temperature and description in every row.
+  + Filter and segregate the forecast data into different days today and the following days provided by Open Weather AΡΙ.
+- Search & history
+  + Display a search input and search history list.
+  + Navigate to the Home page and update the weather details if the search is valid.
+  + Display error message if the search is invalid.
+  + Store the search history in the browser.
+  + Navigate to the Home page and update the weather details when a search history is selected.
+  + Allow search history deletion.
+
+3. Side Notes
+- Mockup UI designs are provided below for references, modify the styles and colour codes when deemed necessary as long as the requirements are met.
+- For displaying weather icons, feel free to retrieve from the Open Weather assets store store, example
+https://openweathermap.org/img/wn/04n@2x.png
+- For wind speed arrow degree, feel free to reference the implementation from Open Weather Map UI.
