@@ -3,6 +3,8 @@
 
 A beautiful and responsive weather application built with React, TypeScript, and Tailwind CSS. Get current weather conditions and a 5-day forecast for any city.
 
+Live demo: https://tinbui-aquariux-fe-takehometest.netlify.app/
+
 ## Features
 
 - 🌡️ Current weather display with temperature, description, humidity, wind direction, and visibility
@@ -24,7 +26,7 @@ A beautiful and responsive weather application built with React, TypeScript, and
 
 1. Clone the repository
 2. Install dependencies: `npm install`
-3. Set up your OpenWeatherMap API key in `src/config/api.ts`
+3. Copy `.env.template` to `.env` and set up your OpenWeatherMap API key in field `VITE_WEATHER_API_KEY`
 4. Start the development server: `npm run dev`
 
 ## Project Structure
